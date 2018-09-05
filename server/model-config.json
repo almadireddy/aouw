@@ -42,5 +42,9 @@
   "literature": {
     "dataSource": "db",
     "public": true
+  },
+  "collection": {
+    "dataSource": "db",
+    "public": true
   }
 }
