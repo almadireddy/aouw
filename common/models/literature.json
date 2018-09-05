@@ -1,0 +1,52 @@
+{
+  "name": "literature",
+  "plural": "literature",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "quote": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "startPage": {
+      "type": "number"
+    },
+    "endPage": {
+      "type": "string"
+    },
+    "originalPublicationDate": {
+      "type": "number"
+    },
+    "originalPublisher": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "currentCitation": {
+      "type": "number"
+    },
+    "pseudonym": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "photos": {
+      "type": "hasOne",
+      "model": "photo",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

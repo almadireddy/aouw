@@ -1,0 +1,45 @@
+{
+  "name": "photo",
+  "plural": "photos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "permalink": {
+      "type": "string",
+      "required": true
+    },
+    "nypl": {
+      "type": "number",
+      "required": true
+    },
+    "uuid": {
+      "type": "string",
+      "required": true
+    },
+    "photographer": {
+      "type": "string"
+    },
+    "year": {
+      "type": "number"
+    },
+    "location": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "literature": {
+      "type": "belongsTo",
+      "model": "literature",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
