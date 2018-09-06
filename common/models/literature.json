@@ -21,7 +21,7 @@
       "type": "number"
     },
     "endPage": {
-      "type": "string"
+      "type": "number"
     },
     "originalPublicationDate": {
       "type": "number"
@@ -44,7 +44,7 @@
     "photos": {
       "type": "hasOne",
       "model": "photo",
-      "foreignKey": ""
+      "foreignKey": "id"
     }
   },
   "acls": [],

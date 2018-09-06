@@ -17,7 +17,7 @@
     "photos": {
       "type": "hasMany",
       "model": "photo",
-      "foreignKey": "",
+      "foreignKey": "id",
       "options": {
         "nestRemoting": true
       }
