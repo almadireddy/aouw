@@ -12,7 +12,7 @@
       "required": true
     },
     "nypl": {
-      "type": "number",
+      "type": "string",
       "required": true
     },
     "uuid": {
@@ -23,7 +23,7 @@
       "type": "string"
     },
     "year": {
-      "type": "number"
+      "type": "string"
     },
     "location": {
       "type": "string"
