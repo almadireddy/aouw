@@ -17,11 +17,8 @@
     "title": {
       "type": "string"
     },
-    "startPage": {
-      "type": "number"
-    },
-    "endPage": {
-      "type": "number"
+    "pages": {
+      "type": "string"
     },
     "originalPublicationDate": {
       "type": "number"
