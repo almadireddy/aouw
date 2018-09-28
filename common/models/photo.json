@@ -30,16 +30,13 @@
     },
     "description": {
       "type": "string"
+    },
+    "tags": {
+      "type": "string"
     }
   },
   "validations": [],
-  "relations": {
-    "literature": {
-      "type": "belongsTo",
-      "model": "literature",
-      "foreignKey": "id"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

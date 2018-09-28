@@ -1,7 +1,7 @@
 {
   "db": {
     "host": "ds117773.mlab.com",
-    "port": 45772,
+    "port": 17773,
     "database": "heroku_qwhwgh0d",
     "username": "heroku_qwhwgh0d",
     "password": "i8icvq6omnsturhb3s2t0ef6b5",
